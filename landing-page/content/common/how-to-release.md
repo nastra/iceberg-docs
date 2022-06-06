@@ -326,7 +326,7 @@ git rebase main
 git push apache latest
 ```
 
-#### iceberg-docs repository preparations
+#### Set latest version in iceberg-docs repo
 
 The last step is to update the `main` branch in `iceberg-docs` to set the latest version.
 A PR needs to be published in the `iceberg-docs` repository with the following changes:
