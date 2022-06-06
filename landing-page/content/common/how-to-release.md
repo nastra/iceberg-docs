@@ -275,7 +275,7 @@ A PR needs to be published in the `iceberg` repository with the following change
 
 1. Create a new folder called `docs/releases/<VERSION NUMBER>` with an `_index.md` file. See the existing folders under `docs/releases` for more details.
 
-#### Documentation update
+#### Common documentation update
 
 1. To start the release process, run the following steps in the `iceberg-docs` repository to copy docs over:
 ```shell
@@ -288,7 +288,9 @@ git checkout -b <BRANCH NAME>
 ```
 3. Commit, push, and open a PR against the `iceberg-docs` repo (`<BRANCH NAME>` -> `main`)
 
-#### Copy over versioned docs
+#### Versioned documentation update
+
+Once the common docs changes have been merged into `main`, the next step is to update the versioned docs.
 
 1. In the `iceberg-docs` repository, cut a new branch using the version number as the branch name
 ```shell
