@@ -333,5 +333,4 @@ A PR needs to be published in the `iceberg-docs` repository with the following c
 1. Update variable `latestVersions.iceberg` to the new release version in `landing-page/config.toml`
 2. Update variable `latestVersions.iceberg` to the new release version in `docs/config.toml`
 3. Mark the current latest release notes to past releases under `landing-page/content/common/release-notes.md`
-4. Update the latest artifact links in the release notes page in `landing-page/content/common/release-notes.md`
-5. Add release notes for the new release version in `landing-page/content/common/release-notes.md`
+4. Add release notes for the new release version in `landing-page/content/common/release-notes.md`
